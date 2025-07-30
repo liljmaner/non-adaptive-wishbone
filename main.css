@@ -5,6 +5,8 @@ body
     font-size: 15px;
     font-weight: var(--main-font-weight);
     letter-spacing: var(--defualt-letter-spacing);
+    transition: var(--transition-delay);
+
 } 
 .header
 {
@@ -34,7 +36,6 @@ body
 .header__nav-link
 {
     line-height: var(--main-line-height);
-    transition: 0.5s;  
 
 }
 .header__nav-link:hover
@@ -52,7 +53,6 @@ body
     border-radius: 14px;
     color: var(--white-color);
     letter-spacing: var(--min-letter-spacing);
-    transition: 0.5s;  
 
 }
 .header__nav-btn:hover
@@ -429,6 +429,11 @@ body
     align-items: center;
     margin-left: 40px;
 }
+.featured-project__btn-element-list:hover
+{
+    background-color: var(--gray-color);
+
+}
 .featured-project__btn
 {
     display: flex;
@@ -436,6 +441,10 @@ body
     line-height: 24px;
     letter-spacing: var(--min-letter-spacing);
     justify-content: center;
+}
+.featured-project__btn:hover
+{
+    color: var(--gray-color);
 }
 .meet-our-team-section
 {
@@ -477,6 +486,10 @@ body
     line-height: 24px;
     letter-spacing: var(--min-letter-spacing);
     padding: 11px 20px;
+}
+.meet-our-team-btn:hover
+{
+    color: var(--gray-color);
 }
 .meet-our-team-second-list
 {
@@ -554,6 +567,10 @@ body
     font-size: 16px;
     line-height: 24px;
     letter-spacing: var(--min-letter-spacing);
+}
+.get-in-touch-btn:hover
+{
+    color: var(--white-color);
 }
 .footer
 {
