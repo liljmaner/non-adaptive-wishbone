@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+:root
+{
+    --main-font-family: 'poppins-regular', sans-serif;
+    --black-color: #1B1A1A;
+    --main-font-weight: 400;
+    --gray-color: #645C55;
+    --light-gray-color: #403E3B; 
+    --white-color: #FFFFFF;
+    --main-line-height: 24px;
+    --beige-color: #ECE7E4;
+    --defualt-letter-spacing: 0px;
+    --min-letter-spacing: 0.4px;
+    --max-letter-spacing: 2px;
+}
+li {
+    list-style-type: none;
+}
+ul {
+   padding-left: 0;
+}
+a {
+    color:var(--main-color);
+    text-decoration: none;
+}
